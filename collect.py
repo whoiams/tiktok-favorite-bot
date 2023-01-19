@@ -1,6 +1,6 @@
 from concurrent.futures import ThreadPoolExecutor
 from requests           import Session
-from osses              import os
+from webints            import webdriver
 
 Pool = ThreadPoolExecutor(max_workers=125)
 get  = Session().get
